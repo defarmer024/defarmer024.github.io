@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Web Design and Development">
+    <meta name="keywords" content="web design, HTML, CSS, Create Website, JavaScript, website business">
+    <meta name="author" content="De Farmer">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  
+    <title>Contact-Us | webdesign.com </title>
+</head>
+<body>
+	 <!-- Header -->
+   <nav class="navbar navbar-expand-lg navbar-light myBg">
+        <a class="navbar-brand" href="#">webdesign.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">(current)</span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Web Design</a>
+                <a class="dropdown-item" href="#">Digital Marketing</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Software Development</a>
+                </div>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="Contact-Us.html">Contact Us</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Header-->
+     <br/>
+    <!-- Bread crumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+    </nav>
+    <!-- End Breadcrumb-->
+     <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1 class="display-4 text-center">Our contact</h1>
+        <hr class="my-4">
+        <p text align="center">Here are the amazing stuff we have done at webdesign.com<br/>contact us  to get amazing stuff web development</p>
+    </div>
+    <!-- End Jumbotron -->
+
+    <!--Section: Contact v.2-->
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+        	</br>
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Mwingi , KM 90403, EA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 254 746 838 454</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@hansdefarmer.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+<!--Section: Contact v.2-->
+
+<br/><br/><br/><br/>
+    <!-- Footer -->
+   <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <br/>
+                    <h4> webdesign.com </h4>
+                    <p> webdesign.com provides latest web solutions with unique deisgns</p>
+                    <div class="row">
+                        <i class="fab fa-facebook-f socialMediaIcons marginWhenInMobile"></i>
+                        <i class="fab fa-twitter socialMediaIcons"></i>
+                        <i class="fab fa-instagram socialMediaIcons"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <br/><br/>
+                    <ul class="noStyleType">
+                        <li>Address: somewhere on earth</li>
+                        <li>Mobile: +1 333 444 555</li>
+                        <li>Email: info@webdesign.com</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                <br/><br/>
+                            <ul class="noStyleType">
+                                <a href="#"><li>Blog</li></a>
+                                <a href="#"><li>Contact</li></a>
+                                <a href="#"><li>Location</li></a>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                <br/><br/>
+                            <ul class="noStyleType">
+                                <a href="#"><li>Careers</li></a>
+                                <a href="#"><li>Announcements</li></a>
+                                <a href="#"><li>Community</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</body>
+</html>
